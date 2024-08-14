@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() 
+
+{
+    int i,j,r,c;
+    printf("no of rows:");
+    scanf("%d",&r);
+    
+    
+    for(i=1;i<=r;i++)
+    {
+        for(c=i;c>1;c--)
+       {
+        printf(" ");
+    }
+    for(j=r;j>=i;j--)
+    {
+            printf("*");
+             }
+        printf("\n");
+    }
+    return 0;
+}
+output:
+no of rows:4
+****
+ ***
+  **
+   *
+
