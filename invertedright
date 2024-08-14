@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() 
+{
+    int i,j,r,c;
+    printf("no of rows:");
+    scanf("%d",&r);
+    printf("no of column");
+    scanf("%d",&c);
+    
+    for(i=1;i<=r;i++)
+    {
+        for(j=i;j<=c;j++)
+        {
+            printf("*");
+             }
+        printf("\n");
+    }
+    return 0;
+}
+output:
+no of rows:3
+no of column3
+***
+**
+*
